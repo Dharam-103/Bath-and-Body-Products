@@ -13,7 +13,7 @@
         }
         #sidebar{
             width:14%;
-            border:1px solid red;
+            border:0px solid red;
             padding:5px;
         }
         p{
@@ -35,8 +35,81 @@
         }
         #mainProducts{
             border:1px solid gray;
-            width:90%;
+            width:83%;
             height:2000px;
+        }
+        #slider{
+            border:0px solid black;
+            width:auto;
+            height:250px;
+            margin:15px;
+            display:flex;
+            gap:20px;
+        }
+        #slider {
+            
+            overflow: auto;
+            white-space: nowrap;
+            padding:10px;
+        }
+
+        #slider>div{
+            height:230px;
+            
+        }
+        #slider>div>img{
+            width:180px;
+        }
+        #slider>div>h4{
+            text-align: center;
+        }
+        #slider>div>h4:hover{
+            background-color:lightgray;
+        }
+        #slider>div:hover{
+            border:1px solid black;
+            border-radius: 5px;
+            
+        }
+        .dash{
+            width:98%;
+            margin:auto;
+            border-top: 1px solid black;
+            margin-bottom: 30px;
+        }
+        #filterSort{
+            display:flex;
+            gap:20px
+
+        }
+        #filterSort{
+            align-items: center;
+        }
+        #filter{
+            width:75%;
+            display:flex;
+            gap :20px;
+            align-items: center;
+            background: #f2f2f2;
+            padding:0px 20px 0px 20px;
+            margin-left:20px;
+
+        }
+        #type{
+            border:none;
+            border-bottom: 2px solid  rgb(61, 61, 61);
+            background: #f2f2f2;
+            font-weight: bold;
+            width:220px;
+            padding:5px;
+        }
+        
+        #sort{
+            border:none;
+            font-weight: bold;
+            width:150px;
+            border-bottom: 2px solid  rgb(61, 61, 61)
+            
         }
     </style>
 </head>
@@ -79,7 +152,85 @@
         </div>
         <div id="mainProducts">
             <div id="slider">
-
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw9b00f229/bc_all-at_fa2_vn.jpg?yocs=o_s_">
+                    <h4>All Aromatherapy</h3>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw476850e1/bc_all-bath-shower_fa2_vn.jpg?yocs=o_s_">
+                    <h4>All Bath & Shower</h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw90c4bb20/images/obc_mens_sp2_vn.jpg?yocs=o_s_">
+                    <h4>Body Wash & Shower Gel</h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw105022ca/bc_scrub_fa2_vn.jpg?yocs=o_s_">
+                    <h4>Body Scrub</h3>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw8206c78c/bc_all-moisturizers_fa2_vn.jpg?yocs=o_s_">
+                    <h4>All Moisturizers</h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dwc10a5c94/obc_atviznav_0_sp1_vn.jpg?yocs=o_s_">
+                    <h4>Body Lotion</h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dwdf27052e/bc_ingredientled_fa1_vn2.jpg?yocs=o_s_">
+                    <h4>Body Cream</h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw2e27fc6c/bc_hand-cream_fa2_vn.jpg?yocs=o_s_">
+                    <h4>Hand Cream</h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dwf1209377/bc_all-fragrance_fa2_vn.jpg?yocs=o_s_">
+                    <h4>All Fragrance</h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw7c6c0a48/fbc_core_sp3_vn.jpg?yocs=o_s_">
+                    <h4>Body Sprays & Mists</h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw65574916/bc_perfume-cologne_fa2_vn.jpg?yocs=o_s_">
+                    <h4>Perfume & Cologne</h4>
+                </div>
+            </div>
+            <h2>&nbsp;&nbsp;&nbsp;All Body Care</h1>
+            <p class="dash"></p>
+            <div id="filterSort">
+                <div id="filter">
+                    <h3>Filter By:</h3>
+                    <div id="select">
+                        <select id="type">
+                            <option value="">PRODUCT TYPE</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div id="select">
+                    <div>
+                        <select id="type">
+                            <option value="">FRAGRANCE NAME</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div id="select">
+                        <select id="type">
+                            <option value="">FRAGRANCE CATEGORY</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <select id="sort">
+                        <option value="">SORT BY</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
             </div>
         </div>
     </div>
