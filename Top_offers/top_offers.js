@@ -77,3 +77,14 @@ topoffers.map((el)=>{
 })
 
 
+
+let first=document.querySelector('#container div:nth-child(1) button').addEventListener("click",function(){
+  show()
+})
+
+
+let show=()=>{
+ console.log('invoke')
+ window.location.href='fragnance.html'
+}
+
