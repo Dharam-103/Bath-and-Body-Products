@@ -3,14 +3,14 @@
   margin: 0 auto;
   position: relative;
 }
-.glider {
+/* .glider {
   margin: 0 auto;
   position: relative;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
   transform: translateZ(0);
-}
+} */
 .glider-track {
   transform: translateZ(0);
   width: 100%;
@@ -126,4 +126,13 @@
     background-color: rgba(156, 156, 156, 0.25);
     box-shadow: 0 0 1px rgba(255,255,255,.25);
   }
+}
+.glider
+{
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  white-space: nowrap;
+  height: 300px;
+  width: 100%;
 }
