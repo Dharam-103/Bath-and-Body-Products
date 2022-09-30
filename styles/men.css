@@ -1,0 +1,159 @@
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+    
+}
+#parent div{
+    margin-left: 10px;
+    width: 20%;
+    display: none;
+    cursor: pointer;
+}
+#parent div img{
+    width: 100%;
+    height: 200px;
+}
+#parent div p{
+    text-align: center;
+    font-weight: bold;
+}
+#parent div:hover{
+    border: 2px solid black;
+}
+#prev{
+   width: 3%;
+   margin-left: 12px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    border: 0;
+    background-color: white;
+}
+#next{
+    width: 3%;
+    font-size: 30px;
+     cursor: pointer;
+     display: inline-block;
+     font-weight: bold;
+     border: 0;
+     margin-left: 10px;
+     background-color: white;
+}
+
+
+/* corner css */
+
+#corner{
+    margin-top: 1%;
+}
+#corner p{
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+/* main body part css */
+
+#Body{
+    margin-top: 10px;
+    display: flex;
+}
+#flex-1{
+    flex:1;
+}
+#flex-2{
+    flex:3;
+}
+
+#flex-1 div{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+#flex-1 div a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#cat{
+    border-bottom:1px solid black;
+    padding: 10px;
+    width: 90%;
+}
+
+#show-result{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+    margin-top: 40px;
+    width: 90%;
+}
+#show-result div{
+    cursor: pointer;
+}
+
+#show-result div img{
+    width:80%;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+#show-result div p{
+    text-align: center;
+    margin-top: 10px;
+    color: teal;
+}
+.add-btn{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#show-result div h3{
+    text-align: center;
+}
+#show-result div button:hover{
+    background-color: cyan;
+    color:black;
+    border: 0;
+}
+#search-result div{
+    cursor: pointer;
+}
+
+#filter-sort{
+    height: 50px;
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#filter-1,#filter-2{
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 2px solid black;
+}
+#sorting{
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 3px solid black;
+}
+
+
+
