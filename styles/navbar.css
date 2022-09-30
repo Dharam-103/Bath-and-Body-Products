@@ -1,0 +1,244 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* top-nav css */
+#top-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #f2f2f2;
+}
+#first-div{
+    display: flex;
+    padding-left: 60px;
+    justify-content: center;
+    align-items: center;
+}
+#second-div{
+    display: flex;
+    padding-right: 60px;
+    justify-content: center;
+    align-items: center;
+}
+#first-div a {
+    padding-left: 20px;
+    color: black;
+}
+#second-div  a{
+    padding-left: 20px; 
+    color: teal;
+}
+#second-div p{
+    padding-left: 20px; 
+    color: blue;
+    font-weight: 600;
+}
+#first-div p{
+    font-weight: 600;
+    color: teal;
+}
+  /* middle nav css */
+#middle-nav{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#middle-nav div:nth-child(1){
+   margin: auto;
+    width:30%;
+   text-align: center;
+   margin-right:50px;
+   cursor: pointer;
+}
+#middle-nav div:nth-child(2){
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70px;
+   width:32%;
+   position: relative;
+   margin-right: 3%;
+}
+#middle-nav div:nth-child(2) input{
+    padding: 10px;
+    width:70%;
+    transition:width 1s ease-in-out;
+}
+#middle-nav div:nth-child(2) input:focus{
+   width:100%;
+   outline: 2px dotted teal;
+}
+#middle-nav div:nth-child(2) input::placeholder{
+    font-size: 20px;
+}
+#middle-nav div:nth-child(2) a .fa-magnifying-glass{
+   position: absolute;
+   right:30%;
+   top:35%;
+   font-size: 25px;
+}
+
+#middle-nav div:nth-child(2) a .fa-user{
+    margin-left: 25px;
+    font-size: 25px;
+    border: 1px solid blue;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+}
+#middle-nav div:nth-child(2) a .fa-cart-plus{
+    margin-left: 20px;
+    font-size: 30px;
+}
+#middle-nav img{
+   width:90%;
+   padding: 10px;
+}
+
+/* page heading css */
+
+#page-heading {
+    height: 50px;
+}
+#page-heading ul{
+    display: flex;
+    justify-content: space-around;
+}
+#page-heading ul li{
+   list-style: none;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+#page-heading ul li a{
+    text-decoration: none;
+    color: black;
+}
+#page-heading ul li:nth-child(1):hover{
+    border-bottom: 3px solid blue;
+}
+#item-2 div ul li:hover,#item-3 div ul li:hover,#item-4 div ul li:hover,#item-5 div ul li:hover,#item-6 div ul li:hover,#item-7 div ul li:hover,#item-8 div ul li:hover{
+    background-color: #f2f2f2;
+    border-bottom: 3px solid blue;
+}
+
+
+
+/* navbar last css  */
+
+#nav-last{
+    height: 60px;
+    background-color: #e6f5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-last p:nth-child(2){
+    padding-left: 20px;
+    color: teal;
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+}
+#nav-last p:nth-child(1){
+    color: blue ;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+  /* for showing border on div after clicking */
+
+ .appear{
+    border: 1px dotted teal;
+ }
+ 
+#nav-last p:nth-child(2):hover{
+    text-decoration: none;
+}
+ 
+.pop{
+    width:20%;
+    margin-left: 60%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: none;
+    position: absolute;
+    z-index: 20;
+}
+
+.pop div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid teal;
+}
+.pop div:nth-child(1) i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.pop div:nth-child(2){
+    margin-top: 10px;
+    padding: 25px;
+}
+.pop div:nth-child(2) p{
+    font-size: 20px;
+}
+
+ /* dropdown menu show every hover page link css  */
+
+ #dropdown,#candles,#fragrance,#Soap,#men-shop,#gift,#fall-shop{
+    display: none;
+    position: absolute;
+    left: 0;
+    top:100%;
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+ }
+ #dropdown ul, #candles ul,#fragrance ul,#Soap ul,#men-shop ul,#gift ul,#fall-shop ul{
+    display: block;
+    margin-top: 15px;
+ }
+ #dropdown ul li, #candles ul li,#fragrance ul li,#Soap ul li,#men-shop ul li,#gift ul li,#fall-shop ul li{
+    width: 200px;
+    padding: 10px;
+ }
+
+  /* user popup related css */
+
+ #user-show{
+    position: absolute;
+    right: 40px;
+    top:80%;
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: 1px solid teal;
+    display: none;
+    z-index: 10;
+ }
+ #user-show ul{
+    display: block;
+    margin: 10px;
+ }
+ #user-show ul li {
+    list-style: none;  
+    padding: 10px;
+ }
+ #user-show ul li a{
+    text-decoration: none;
+    color: black;
+ }
+ #user-show ul li:hover{
+    background-color: #f2f2f2;
+    border-bottom: 1px dotted black;
+ }
+
+
+
+ 
