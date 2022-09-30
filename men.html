@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <script src="https://kit.fontawesome.com/cfdd832042.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/men.css">
+</head>
+<body onload="show()"> 
+       <div id="navbar"></div>
+       <div id="corner">
+          <p><a href="">Home</a> / Product</p>
+       </div>
+       <div id="Body">
+          <div id="flex-1">
+            <div>
+                <h3>THE MEN'S SHOP</h3>
+            </div>
+            <div>
+                <a href="">All Men's Body Care</a>
+            </div>
+            <div>
+                <a href="">Body Wash & Shower Gel</a>
+            </div>
+            <div>
+                <a href="">Moisturizers</a>
+            </div>
+            <div>
+                <a href="">Body Spray & Cologne</a>
+            </div>
+            <div>
+                <a href="">Home Fragrance</a>
+            </div>
+            <div>
+                <a href="">Hand Soaps & Sanitizers</a>
+            </div>
+          </div>
+          <div id="flex-2">
+            <div id="parent">
+                <button id="prev" onclick="moveLeft()">&lt</button>
+                 <div id="c1">
+                   <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4a77da4a/crop/026533060_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_" alt="error">
+                   <p>White Owl</p>
+                 </div>
+                 <div id="c2">
+                   <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd57e0901/crop/026544921_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_" alt="error">
+                   <p>Cozy Cashmere</p>
+                 </div>
+                 <div id="c3">
+                   <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw31541337/cndl_visual-filter-3w_junsas_vn.jpg?yocs=o_s_" alt="error">
+                   <p>3 Wick candles</p>
+                 </div>
+                 <div id="c4">
+                   <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw7cae1379/images/cndl_visual-filter-sw_junsas_vn.jpg?yocs=o_s_" alt="error">
+                   <p>Single Wick Candles</p>
+                 </div>
+                 <div id="c5">
+                   <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw07e424ca/images/cndl_visual-filter-holder_junsas_vn.jpg?yocs=o_s" alt="error">
+                   <p>Candles Holder</p>
+                 </div>
+                 <div id="c6">
+                   <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw14c1f2ab/crop/026539012_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_" alt="error">
+                   <p>Carmel pumkin</p>
+                 </div>
+                 <div id="c7">
+                   <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwfd2d8adc/crop/026553513_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_" alt="error">
+                   <p>fireside</p>
+                 </div>
+                 <div id="c8">
+                   <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd3b52cde/crop/026556953_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s" alt="error">
+                   <p>Frozen lake</p>
+                 </div> 
+                <button id="next" onclick="moveRight()">&gt</button>
+              </div>
+              <div id="cat">
+                <h2>Men's Fragrance, Body Care & More</h2>
+              </div>
+              <div id="filter-sort">
+                 <div>
+                   <label id="label">Filter By:</label>
+                    <select id="filter-1">
+                      <option value="Product Type">Product Type</option>
+                      <option value="3-Wick Candle">3-Wick Candle</option>
+                      <option value="Body Spray">Body Spray</option>
+                      <option value="Cologne">Cologne</option>
+                      <option value="Gentle Foaming Hand Soap">Gentle Foaming Hand Soap</option>
+                      <option value="Concentrated Room Spray">Concentrated Room Spray</option>
+                    </select>
+
+                    <select id="filter-2">
+                      <option value="Product Name">Product Name</option>
+                      <option value="Teakwood">Teakwood</option>
+                      <option value="Ocean">Ocean</option>
+                      <option value="Black Tie">Black Tie</option>
+                      <option value="Bourbon">Bourbon</option>
+                      <option value="Freshwater">Freshwater</option>
+                    </select>
+                 </div>
+                 <div>
+                    <select id="sorting">
+                      <option value="Sort By">Sort By</option>
+                      <option value="Low To High">Low To High</option>
+                      <option value="High To Low">High To Low</option>
+                    </select>
+                 </div>
+              </div>
+              <div id="show-result"></div>
+          </div>
+       </div>
+     
+    
+</body>
+</html>
+
+<script src="men.js"></script>
+
+<script type="module" src="navbar.js"></script>
