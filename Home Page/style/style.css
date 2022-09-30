@@ -33,9 +33,9 @@ body {
     align-items: center;
     margin: 50px 0px;
     width: 100%;
-    background-color: rgb(248, 240, 240);
-    padding-top: 35px;
-    padding-bottom: 30px;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
     gap: 20px;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .card-container {
-    border: 1PX solid red;
+    /* border: 1PX solid red; */
     width: 300px;
     margin: 5px;
     overflow: hidden;
@@ -113,11 +113,7 @@ body {
     color: #313131;
     border: none;
 }
-.glider
-{
-    overflow: auto;
-    white-space: nowrap;
-}
+
 #home_midImg_div
 {
     width: 100%;
@@ -201,4 +197,105 @@ body {
 .midSec_innerDiv > a:hover
 {
     text-decoration: none;
+}
+#gift_listImg
+{
+    width: 100%;
+}
+#gift_container
+{
+    border: 1px solid red;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.gift_btn
+{
+    background: #313131;
+    margin: auto;
+    margin: 20px 10px;
+    padding: 8px 12px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase
+}
+.gift_btn:hover
+{
+    background-color: #f2f2f2;
+    color: #313131;
+}
+#more_good
+{
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#more_good_headline > p
+{
+    font-size: 24px;
+    font-weight: 600;
+}
+#more_good_card
+{
+    display: flex;
+    margin: auto;
+}
+.stiker_card
+{
+    width: 15%;
+    margin: auto;
+}
+.stiker_card>img
+{
+    width: 100%;
+}
+.stiker_card>a
+{
+    font-size: 14px;
+    color: #313131;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.stiker_card>a:hover
+{
+    text-decoration: none;
+}
+
+
+#last_slider
+{
+    border: 1px solid red;
+    text-align: center;
+    margin: auto;
+}
+#social
+{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+#social>span
+{
+    display: flex;;
+}
+.swap
+{
+    width: 100%;
+    gap: 10px;
+}
+.lastSec
+{
+    text-align: center;
+}
+.lastSec>h2
+{
+    font-weight: 300;
+    font-size: 30px;
 }
