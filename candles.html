@@ -34,31 +34,24 @@
             gap:20px;
         }
         #mainProducts{
-            border:1px solid gray;
+            border:0px solid gray;
             width:83%;
-            height:2000px;
+            height:auto;
         }
         #slider{
             border:0px solid black;
             width:auto;
-            height:250px;
+            height:300px;
             margin:15px;
             display:flex;
             gap:20px;
         }
-        #slider {
-            
-            overflow: auto;
-            white-space: nowrap;
-            padding:10px;
-        }
-
         #slider>div{
-            height:230px;
+            height:300px;
             
         }
         #slider>div>img{
-            width:180px;
+            width:240px;
         }
         #slider>div>h4{
             text-align: center;
@@ -112,11 +105,44 @@
             border-bottom: 2px solid  rgb(61, 61, 61)
             
         }
+        
         #basic{
-            border:1px solid red;
+            border:0px solid red;
             width:96%;
-            height:1500px;
+           
             margin-left:20px;
+            text-align: center;
+        }
+        #basic{
+            display: grid;
+            grid-template-columns: repeat(4,22%);
+            grid-template-rows: auto;
+            gap: 3%;
+            justify-content: space-evenly;
+            margin-top: 5%;
+        }
+        #basic>div{
+            border: 0px solid yellow;
+            width: 100%;
+            width: 300px;
+            
+        }
+        #basic>div>img{
+            border: 0px solid red;
+            width: 60%;
+            height: 170px;
+        }
+        #name{
+            border:none;
+            border-bottom: 2px solid  rgb(61, 61, 61);
+            background: #f2f2f2;
+            font-weight: bold;
+            width:220px;
+            padding:5px;
+        }
+        #btn{
+            padding:10px;
+            width:70%;
         }
         
     </style>
@@ -151,49 +177,23 @@
         <div id="mainProducts">
             <div id="slider">
                 <div>
-                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw9b00f229/bc_all-at_fa2_vn.jpg?yocs=o_s_">
-                    <h4>All Aromatherapy</h3>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw31541337/cndl_visual-filter-3w_junsas_vn.jpg?yocs=o_s_">
+                    <h4>3-Wick Candles</h3>
                 </div>
                 <div>
-                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw476850e1/bc_all-bath-shower_fa2_vn.jpg?yocs=o_s_">
-                    <h4>All Bath & Shower</h4>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw7cae1379/images/cndl_visual-filter-sw_junsas_vn.jpg?yocs=o_s_">
+                    <h4>Single Wick Candles</h4>
                 </div>
                 <div>
-                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw90c4bb20/images/obc_mens_sp2_vn.jpg?yocs=o_s_">
-                    <h4>Body Wash & Shower Gel</h4>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw07e424ca/images/cndl_visual-filter-holder_junsas_vn.jpg?yocs=o_s_">
+                    <h4>Candle Holders & Accessories</h4>
                 </div>
                 <div>
-                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw105022ca/bc_scrub_fa2_vn.jpg?yocs=o_s_">
-                    <h4>Body Scrub</h3>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw31541337/cndl_visual-filter-3w_junsas_vn.jpg?yocs=o_s_">
+                    <h4>The White Barn Shop </h3>
                 </div>
-                <div>
-                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw8206c78c/bc_all-moisturizers_fa2_vn.jpg?yocs=o_s_">
-                    <h4>All Moisturizers</h4>
-                </div>
-                <div>
-                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dwc10a5c94/obc_atviznav_0_sp1_vn.jpg?yocs=o_s_">
-                    <h4>Body Lotion</h4>
-                </div>
-                <div>
-                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dwdf27052e/bc_ingredientled_fa1_vn2.jpg?yocs=o_s_">
-                    <h4>Body Cream</h4>
-                </div>
-                <div>
-                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw2e27fc6c/bc_hand-cream_fa2_vn.jpg?yocs=o_s_">
-                    <h4>Hand Cream</h4>
-                </div>
-                <div>
-                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dwf1209377/bc_all-fragrance_fa2_vn.jpg?yocs=o_s_">
-                    <h4>All Fragrance</h4>
-                </div>
-                <div>
-                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw7c6c0a48/fbc_core_sp3_vn.jpg?yocs=o_s_">
-                    <h4>Body Sprays & Mists</h4>
-                </div>
-                <div>
-                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw65574916/bc_perfume-cologne_fa2_vn.jpg?yocs=o_s_">
-                    <h4>Perfume & Cologne</h4>
-                </div>
+                
+                
             </div>
             <h2>&nbsp;&nbsp;&nbsp;All Body Care</h1>
             <p class="dash"></p>
@@ -203,25 +203,20 @@
                     <div id="select">
                         <select id="type">
                             <option value="">PRODUCT TYPE</option>
-                            <option value="">Bar Soup</option>
-                            <option value="">Bath Assessories</option>
-                            <option value="">Bath Fizzy</option>
-                            <option value="">Bath Soak</option>
-                            <option value="">Body Butter & Balm</option>
-                            <option value="">Body Cream</option>
+                            <option value="">3-Wick Candle</option>
+                            <option value="">Single Wick Candle</option>
                             
                         </select>
                     </div id="select">
                     <div>
                         <select id="type">
                             <option value="">FRAGRANCE NAME</option>
-                            <option value="">Almond Blossom</option>
-                            <option value="">Autumn Drive</option>
-                            <option value="">Beautiful Day</option>
-                            <option value="">Black Tie</option>
-                            <option value="">Cashmere Glow</option>
-                            <option value="">Cozy Season</option>
-                            <option value="">Dark Kiss</option>
+                            <option value="">Leaves</option>
+                            <option value="">Sugared Pecan Pie</option>
+                            <option value="">Fall in Bloom</option>
+                            <option value="">Coffee & Whiskey</option>
+                            <option value="">Spiced Apple Toddy</option>
+                           
                         </select>
                     </div>
                     <div id="select">
@@ -239,11 +234,10 @@
                 <div>
                     <select id="sort">
                         <option value="">SORT BY</option>
-                        <option value="">New Arrivals</option>
-                        <option value="">Best Sellers</option>
-                        <option value="" onclick="sortLH()">Price Low to High</option>
-                        <option value="" onclick="sortHL()">Price High to Low</option>
-                        <option value="" onclick="sortTopRating()">Top Rated</option>
+                       
+                        <option value="Price Low to High" >Price Low to High</option>
+                        <option value="Price High to Low" >Price High to Low</option>
+                       
                     </select>
                 </div>
             </div>
@@ -256,4 +250,4 @@
 </body>
 </html>
 
-<script src="./bodycare.js"></script>
+<script src="./candles.js"></script>

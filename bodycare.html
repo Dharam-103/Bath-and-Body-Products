@@ -34,9 +34,9 @@
             gap:20px;
         }
         #mainProducts{
-            border:1px solid gray;
+            border:0px solid gray;
             width:83%;
-            height:2000px;
+           
         }
         #slider{
             border:0px solid black;
@@ -112,11 +112,44 @@
             border-bottom: 2px solid  rgb(61, 61, 61)
             
         }
-        #basic{
-            border:1px solid red;
+        #items{
+            border:0px solid red;
             width:96%;
-            height:1500px;
+           
             margin-left:20px;
+            text-align: center;
+        }
+        #basic{
+            display: grid;
+            grid-template-columns: repeat(4,22%);
+            grid-template-rows: auto;
+            gap: 3%;
+            justify-content: space-evenly;
+            margin-top: 5%;
+            text-align: center;
+        }
+        #basic>div{
+            border: 0px solid yellow;
+            width: 83%;
+            width: 300px;
+            
+        }
+        #basic>div>img{
+            border: 0px solid red;
+            width: 40%;
+            height: 300px;
+        }
+        #name{
+            border:none;
+            border-bottom: 2px solid  rgb(61, 61, 61);
+            background: #f2f2f2;
+            font-weight: bold;
+            width:220px;
+            padding:5px;
+        }
+        #btn{
+            padding:10px;
+            width:70%;
         }
         
     </style>
@@ -213,25 +246,24 @@
                     <div id="select">
                         <select id="type">
                             <option value="">PRODUCT TYPE</option>
-                            <option value="">Bar Soup</option>
-                            <option value="">Bath Assessories</option>
-                            <option value="">Bath Fizzy</option>
-                            <option value="">Bath Soak</option>
-                            <option value="">Body Butter & Balm</option>
-                            <option value="">Body Cream</option>
+                            <option value="">3-in-1 Hair, Face & Body Wash</option>
+                            <option value="">Fine Fragrance Mist</option>
+                            <option value="">Body Wash and Foam Bath</option>
+                            <option value="">Ultimate Hydration Body Cream</option>
+                            <option value="">Body Spray</option>
+                            <option value="">Shower Gel</option>
                             
                         </select>
                     </div id="select">
                     <div>
-                        <select id="type">
+                        <select id="name">
                             <option value="">FRAGRANCE NAME</option>
-                            <option value="">Almond Blossom</option>
-                            <option value="">Autumn Drive</option>
-                            <option value="">Beautiful Day</option>
-                            <option value="">Black Tie</option>
-                            <option value="">Cashmere Glow</option>
-                            <option value="">Cozy Season</option>
-                            <option value="">Dark Kiss</option>
+                            <option value="">Fall in Bloom</option>
+                            <option value="">Sweet Whiskey</option>
+                            <option value="">Bourbon</option>
+                            <option value="">Whiskey Reserve</option>
+                            <option value="">Ivory Cashmere</option>
+                            <option value="">Sweater Weather</option>
                         </select>
                     </div>
                     <div id="select">
@@ -249,11 +281,10 @@
                 <div>
                     <select id="sort">
                         <option value="">SORT BY</option>
-                        <option value="">New Arrivals</option>
-                        <option value="">Best Sellers</option>
-                        <option value="" onclick="sortLH()">Price Low to High</option>
-                        <option value="" onclick="sortHL()">Price High to Low</option>
-                        <option value="" onclick="sortTopRating()">Top Rated</option>
+                        
+                        <option value="Price Low to High" >Price Low to High</option>
+                        <option value="Price High to Low" >Price High to Low</option>
+                        
                     </select>
                 </div>
             </div>
