@@ -1,0 +1,229 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #img-head{
+            margin-top: 30px;     
+        }
+       #img-head>img{
+            width: 65%;
+            height: 130px;
+            margin-left: 17%; 
+        }
+        #linee1{
+            border: .5px solid grey;
+            width: 65%;
+            margin-left: 17%;
+            margin-top: -10px;
+        }
+        #p2{
+            margin-left: 17%;
+            margin-top: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+
+        }
+        #signindiv{
+            border: 2px solid transparent;
+            width: 60%;
+            margin: auto;
+            display: flex;
+        }
+        #formdiv{
+            width: 42%;
+            border: 2px solid transparent;
+            margin-top: 55px;
+            
+        }
+        #formdiv>p{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 200;
+            font-size: 15px;
+        }
+        #parag{
+            display: flex;
+            justify-content:space-evenly;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 200;
+            font-size: 15px;
+            margin-right: 50px;
+            margin-top: 20px;
+        }
+        #form>p{
+            margin-left: 40px;
+            margin-bottom: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 200;
+        }
+        #form>input{
+            margin-left: 40px;
+            height: 38px;
+            width: 70%;
+        }
+        #policy{
+            text-align: center;
+            margin-right: 70px;
+           
+        }
+        #signin{
+            background-color:black;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        #signin:hover{
+            background-color: gainsboro;
+            border: transparent; 
+            color: black;
+        }#linediv{
+            border: 1px solid transparent;
+            height: 500px;
+            width: 40px;
+            margin-left: 20px;
+            
+        }#first{
+            border:0.2px solid grey;
+            width: 0.025px;
+            margin:auto;
+            height: 60px;
+            margin-top: 20px;
+        }#second{
+            border: 1px solid grey;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            margin: auto;
+        }#second>p{
+            margin-top: 7px;
+            font-family: sans-serif;
+            font-size: 13;
+        }#third{
+            border: 0.5px solid grey;
+            width: 0.025px;
+            margin: auto;
+            height: 350px;
+        }#signupdiv{
+           text-align: center;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           width: 45%;
+           font-size: 14px;
+           margin-top: 60px;
+           color: grey;
+           margin-left: 20px;
+        }#signupdiv>input{
+            width: 200px;
+            height: 35px;
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            margin-top: 15px;
+        }#signupdiv>img{
+            width: 95%;
+            margin-top: 10px;
+            
+        }#lastp{ 
+            text-align: center;
+            color: grey;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+       button{
+        cursor: pointer;
+        margin-top: 20px;
+        width: 200px;
+        height: 35px;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+       }
+       button:hover{
+        border: transparent;
+        background-color: gainsboro;
+        color: black;
+
+       }
+    </style>
+</head>
+<body>
+    <div id="img-head">
+        <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw67bc4699/images/banners/sign-in_d.png?yocs=s_" alt="">
+    </div>
+    <p id="p2">Sign In Or Sign Up</p>
+    <div id="linee1"></div>
+    <div id="signindiv">
+        <div id="formdiv">
+            <p>SIGN IN</p>
+            <P>if you have already have an acccount with us, sign in below</P>
+            <form id="form">
+                <p>Email Address</p>
+                <input type="text" name="" id="email">
+                <p>Password</p>
+                <input type="password" name="" id="passw">
+                <div id="parag">
+                    <p><a href="">Forget Password?</a> </p>
+                    <p>Remember me</p>
+                </div>
+                <p id="policy">Privacy Policy</p>
+                <input type="submit" value="SIGN IN" id="signin">
+                
+            </form>
+        </div>
+        <div id="linediv">
+            <div id="first"></div>
+            <div id="second">
+                <p>OR</p></div>
+            <div id="third"></div>
+        </div>
+        <div id="signupdiv">
+             <p>SIGN UP</p>
+             <p>Create an account to access the best of your favorite store</p>
+             <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw0f47b7b9/images/loyalty/boc-launch-prospects_lacb_0.jpg?yocs=s_">
+             <a href="signup.html"><button>CREATE AN ACCOUNT</button></a>
+        </div>
+    </div>
+    <div id="lastp">
+        <p>QUESTIONS?</p>
+        <p>We’re here for you! Call us at 1-800-756-5005.</p>
+    </div>
+    
+</body>
+</html>
+<script>
+    let form = document.querySelector("form")
+
+let arrsignin = JSON.parse(localStorage.getItem("arraysignup"))||[]
+
+form.addEventListener("submit", function(event){
+    event.preventDefault()
+
+    if(arrsignin==0){
+        alert("No User Found Till Now")
+        return
+    }
+    let obj={
+        email:form.email.value,
+        password:form.passw.value,      
+    }
+   
+    let flag=false
+
+for(let i=0; i<arrsignin.length; i++ ){
+        if(arrsignin[i].emails==obj.email && arrsignin[i].password==obj.password){
+            flag=true;
+            alert("Login Successfull")
+            window.location.href="homepage.html"
+            break;
+            
+           }
+        
+        }
+    if(flag==false){
+        alert("Wrong Username Or Password")
+    }
+})
+</script>
