@@ -174,7 +174,7 @@ const inp=document.getElementById('type')
 
 
 
-/*const pro=document.getElementById("name")
+const pro=document.getElementById("name")
 
   pro.addEventListener("change",()=>{
       filteredResults(items)
@@ -192,7 +192,7 @@ const inp=document.getElementById('type')
     })
     console.log(new_data)
    showData(new_data)
-  }*/
+  }
 
 //sorting functionality
 
