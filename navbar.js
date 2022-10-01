@@ -267,7 +267,7 @@ const userAppear=()=>{
 }
 
 user_profile.addEventListener('mouseout',()=>{
-    setTimeout( userDisappear,3000)
+    setTimeout( userDisappear,2000)
 })
 
 const userDisappear=()=>{

@@ -1,17 +1,28 @@
+ import {footer} from "./components/footer.js"
+
+ const footer_div=document.getElementById('add-footer');
+
+ footer_div.innerHTML=footer()
+ 
 let left=1;
 let right=4;
-function show(){
-    
+
+
+
 
  for(let i=left;i<=right;i++)
  {
     document.getElementById("c"+i).style.display='inline-block'
  }
 
-}
+
+
+let prev=document.getElementById('prev')
+prev.addEventListener('click',()=>{
+   moveLeft()
+})
 
 function moveLeft(){
-    
 
     if(left<5 && right<8){
 
@@ -23,13 +34,16 @@ function moveLeft(){
           document.getElementById("c"+i).style.display='inline-block'
        }
     }else{
-        
+        return
     }
 
- 
-
-
 }
+
+let next=document.getElementById('next')
+next.addEventListener('click',()=>{
+   moveRight()
+})
+
 
 function moveRight(){
 

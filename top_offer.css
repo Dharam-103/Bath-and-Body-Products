@@ -5,7 +5,8 @@ body>h1{
        padding-bottom: 16px;
        margin: 5px 0 32px;
        font-family: TradeGothicLTW05-BoldNo\.2,Arial,sans-serif;
-     /*margin-top: 20%;*/
+       margin-top: 20px;
+       margin-left: 20px;
    
    }
    body>h1+img{
