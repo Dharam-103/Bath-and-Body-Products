@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragrance</title>
+    <link rel="stylesheet" href="fragrance.css">
+    <style>
+        body{
+            font-family: sans-serif;
+            width:97%;
+           /*  margin-top: 15%;*/
+        }
+        #sidebar{
+            width:14%;
+          /*  border:0px solid blue;*/
+            padding:5px;
+            margin-top: 3%;
+        }
+        p{
+            font-size: 12px;
+            font-family: sans-serif;
+            
+        }
+        ul{
+            margin-left:-38px;
+            color :gray;
+            font-size: 14px;
+        }
+        h4{
+            font-size: 14px;
+        }
+        #bodycare{
+            display:flex;
+            gap:20px;
+        }
+        #mainProducts{
+          /*  border:1px solid gray;*/
+            width:83%;
+            height:2000px;
+        }
+        #slider{
+            border:0px solid black;
+            width:auto;
+            height:250px;
+            margin:15px;
+            display:flex;
+            gap:20px;
+        }
+        #slider {
+            
+            overflow: auto;
+            white-space: nowrap;
+            /*padding:10px;*/
+        }
+
+        #slider>div{
+            height:230px;
+           /* border:1px solid red;*/
+            
+        }
+        #slider>div>img{
+            width:180px;
+        }
+        #slider>div>h4{
+            text-align: center;
+        }
+        #slider>div>h4:hover{
+            background-color:lightgray;
+        }
+        #slider>div:hover{
+            border:1px solid black;
+            border-radius: 5px;
+            
+        }
+        .dash{
+            width:98%;
+            margin:auto;
+            border-top: 1px solid black;
+            margin-bottom: 30px;
+        }
+        #filterSort{
+            display:flex;
+            gap:20px;
+            
+
+        }
+        #filterSort{
+            align-items: center;
+        }
+        #filter{
+            width:75%;
+            display:flex;
+            gap :20px;
+            align-items: center;
+            background: #f2f2f2;
+            padding:0px 20px 0px 20px;
+            margin-left:20px;
+
+        }
+        #type{
+            border:none;
+            border-bottom: 2px solid  rgb(61, 61, 61);
+            background: #f2f2f2;
+            font-weight: bold;
+            width:220px;
+            padding:5px;
+        }
+        #name{
+            border:none;
+            border-bottom: 2px solid  rgb(61, 61, 61);
+            background: #f2f2f2;
+            font-weight: bold;
+            width:220px;
+            padding:5px;
+        }
+        
+        #sort{
+            border:none;
+            font-weight: bold;
+            width:150px;
+            border-bottom: 2px solid  rgb(61, 61, 61)
+            
+        }
+       
+
+
+
+        
+    </style>
+</head>
+<body>
+    <p><a href="">HOME</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="">Home Fragrance</a></p>
+    <div id="bodycare">
+        <div id="sidebar">
+            <h4>TOP OFFERS</h4>
+            <p>
+                <ul>9/$13.50 Wallflowers Fragance Refills</ul>
+                <ul>3/$22 Room Sprays </ul>
+                <ul>3/$10 Car Fragrance Refills</ul>
+                
+            </p>
+            <br>
+            
+            <h4>ALL FRESHENERS</h4>
+            <p>
+                <ul>All Wallflowers</ul>
+                <ul>Wallflowers Plugs</ul>
+                <ul>Room Sprays & Mists</ul>
+                <ul>Car Frangance</ul>
+            </p>
+            <br>
+            <h4>FEATURED</h4>
+            <p>
+                <ul>Auto Refresh Wallflowers</ul>
+               
+            </p>
+            
+            
+        </div>
+        <div id="mainProducts">
+            <div id="slider">
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dwd482bc56/images/diff_visual-filter-wf_junsas_vn.jpg?yocs=o_s_">
+                    <h4>All Wallflowers</h3>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw8f097638/images/diff_distressed_junsas_vn.jpg?yocs=o_s_">
+                    <h4>Wallflowers Plugs</h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dwf8bcc5d6/images/diff_visual-filter-crs_junsas_vn.jpg?yocs=o_s_">
+                    <h4>Room Spray And Mist </h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw87f0c0d4/images/diff_visual-filter-cfr_junsas_vn.jpg?yocs=o_s_">
+                    <h4>Car Frangances</h3>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw84d23c24/images/diff_visual-filter-auto-ref_junsas_vn.jpg?yocs=o_s_">
+                    <h4>Auto Refresh Wallflowers</h4>
+                </div>
+                <div>
+                    <img style="width:80%;"src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSe_4Hb4Ph586k7x_R7xwQhv_6RXhdZkFKEoaM16IoRpY0ACbYSBvk2CO8wsqvQgnnxmi45TBr1WEk&usqp=CAc">
+                    <h4 style="margin-top:-3%;">Dolce & Gabbana The One EDP</h4>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSx_HlunmHq1JO19mWm0z3N8YoOQG6mJ6ElRKYyaHi2Ymb4ZkAFiNFIORpIU0IXku0e1agjRLR0sw&usqp=CAc">
+                    <h4>Luxury Perfumes</h4>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRA9-0fG5PHUOuYPljRhiU2H8GcEuBTpQ8nB0B0atnIkniHut92cLw6CzCyAvfn1b34FwwahARJzQBL8rleVuJSzkFOHUrPDI1OD0IHGzWGqaoOxkOrWMztYJi7&usqp=CAE">
+                    <h4>Titan Skinn Verge 20ml</h4>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcShVsa039QQ1MKskDhoIssOt-DPnnpQCzUjAOX0Ss5Ug9r3igN5YJrThLZ-JOTaf00IxG0V3tgmDH6wKB1E93zR-QWXWPob1bswvyubIZUs&usqp=CAE">
+                    <h4>Gucci Bamboo</h4>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSYbOzeLV4X-xvffgjCFC1HjRbOODbS7MypRDQ3_a3EwUDAGSplinFebpTHNfgkRjha3ZmBjghUaO0CZGp0XaqYFzsYZ3xB14Tp3j6DzSAknziGxmyC9A1spA&usqp=CAE">
+                    <h4>Aurum By Ajmal</h4>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSEB6TABNVwyERGnkG41Owym2sDFkjy7eOLqlVoHwS101pDs-yPoxZMlUttXfLDnDWA_Jh_YnM6t-ggoWJ7bBH1yze9_J6gS3AnHIvOr2pHlAGFy-eMS5ctmw&usqp=CAE">
+                    <h4>Amalfi Bleue By Skinn For Women's 30Ml</h4>
+                </div>
+            </div>
+            <h2>&nbsp;&nbsp;&nbsp;All Body Care</h1>
+            <p class="dash"></p>
+            <div id="filterSort">
+                <div id="filter">
+                    <h3>Filter By:</h3>
+                    <div id="select">
+                        <select id="type">
+                            <option value="">PRODUCT TYPE</option>
+                            <option value="CUDDLE WEATHER">CUDDLE WEATHER</option>
+                            <option value="SWEATER WEATHER">SWEATER WEATHER</option>
+                            <option value="Wallflowers Fragrance Plug">Wallflowers Fragrance Plug</option>
+                            <option value="FLANNEL">FLANNEL</option>
+                        
+                            <option value="Concentrated Room Spray">Concentrated Room Spray</option>
+                            <option value="Wallflowers Fragrance Refill">Wallflowers Fragrance Refill</option>
+                         
+                            
+                        </select>
+                    </div id="select">
+                    <div>
+                        <select id="name">
+                            <option value="">FRAGRANCE NAME</option>
+                            <option value="WHITE PUMPKIN LANTERN">WHITE PUMPKIN LANTERN</option>
+                            <option value="STACKED PUMPKINS">STACKED PUMPKINS</option>
+                            <option value="GOLDEN TURKEY">GOLDEN TURKEY</option>
+                            <option value="SWEATER WEATHER">SWEATER WEATHER</option>
+                            <option value="IMAGES COZY LINEN">IMAGES COZY LINEN</option>
+                            <option value="SWEATER WEATHER">SWEATER WEATHER</option>
+                            
+                        </select>
+                    </div>
+                    <div id="select">
+                        <select id="type">
+                            <option value="">FRAGRANCE CATEGORY</option>
+                            <option value="">Citrus</option>
+                            <option value="">Floral</option>
+                            <option value="">Fresh</option>
+                            <option value="">Fruity</option>
+                            <option value="">Sweet</option>
+                            <option value="">Woodsy</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <select id="sort">
+                        <option value="">SORT BY</option>
+                        
+                        <option value="Price Low to High" >Price Low to High</option>
+                        <option value="Price High to Low" >Price High to Low</option>
+                        
+                    </select>
+                </div>
+            </div>
+            <h4 style="margin-left:20px;color:blue;display:flex;align-items: center;margin-bottom: -2px;">SHOP YOUR STORE:&nbsp; <a href="" style="color:black;"><h5>Set Store</h5></a></h4>
+            <div id="basic" ></div>
+            
+        </div>
+    </div>
+    
+
+    
+
+</body>
+</html>
+
+<script src="fragrance.js"></script>
