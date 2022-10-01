@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candles</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            width:97%;
+            margin:auto;
+        }
+        #sidebar{
+            width:14%;
+            border:0px solid red;
+            padding:5px;
+        }
+        p{
+            -size: 12px;
+            -family: sans-serif;
+            
+        }
+        ul{
+            margin-left:-38px;
+            color :gray;
+            -size: 14px;
+        }
+        h4{
+            -size: 14px;
+        }
+        #bodycare{
+            display:flex;
+            gap:20px;
+        }
+        #mainProducts{
+            border:0px solid gray;
+            width:83%;
+            height:auto;
+        }
+        #slider{
+            border:0px solid black;
+            width:auto;
+            height:300px;
+            margin:15px;
+            display:flex;
+            gap:20px;
+        }
+        #slider>div{
+            height:300px;
+            
+        }
+        #slider>div>img{
+            width:240px;
+        }
+        #slider>div>h4{
+            text-align: center;
+        }
+        #slider>div>h4:hover{
+            background-color:lightgray;
+        }
+        #slider>div:hover{
+            border:1px solid black;
+            border-radius: 5px;
+            
+        }
+        .dash{
+            width:98%;
+            margin:auto;
+            border-top: 1px solid black;
+            margin-bottom: 30px;
+        }
+        #filterSort{
+            display:flex;
+            gap:20px;
+            
+
+        }
+        #filterSort{
+            align-items: center;
+        }
+        #filter{
+            width:75%;
+            display:flex;
+            gap :20px;
+            align-items: center;
+            background: #f2f2f2;
+            padding:0px 20px 0px 20px;
+            margin-left:20px;
+
+        }
+        #type{
+            border:none;
+            border-bottom: 2px solid  rgb(61, 61, 61);
+            background: #f2f2f2;
+            -weight: bold;
+            width:220px;
+            padding:5px;
+        }
+        
+        #sort{
+            border:none;
+            -weight: bold;
+            width:150px;
+            border-bottom: 2px solid  rgb(61, 61, 61)
+            
+        }
+        
+        #basic{
+            border:0px solid red;
+            width:96%;
+           
+            margin-left:20px;
+            text-align: center;
+        }
+        #basic{
+            display: grid;
+            grid-template-columns: repeat(4,22%);
+            grid-template-rows: auto;
+            gap: 3%;
+            justify-content: space-evenly;
+            margin-top: 5%;
+        }
+        #basic>div{
+            border: 0px solid yellow;
+            width: 100%;
+            width: 300px;
+            
+        }
+        #basic>div>img{
+            border: 0px solid red;
+            width: 60%;
+            height: 170px;
+        }
+        #name{
+            border:none;
+            border-bottom: 2px solid  rgb(61, 61, 61);
+            background: #f2f2f2;
+            -weight: bold;
+            width:220px;
+            padding:5px;
+        }
+        #btn{
+            padding:10px;
+            width:70%;
+        }
+        .p{
+            margin-left:40px;
+            font-size: 16px;
+            font-family: sans-serif;
+            color:rgb(91, 91, 91);
+            width:80%;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <p><a href="">HOME</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="">BODY CARE</a></p>
+    <div id="bodycare">
+        <div id="sidebar">
+            <h4>TOP OFFERS</h4>
+            <p>
+                <ul>$13.50 All 3-Wick Candles</ul>
+                <ul>2/$22 Single Wick Candles</ul>
+                
+            </p>
+            <br>
+            
+            <h4>ALL CANDLES</h4>
+            <p>
+                <ul>3-Wick Candles</ul>
+                <ul>Single Wick Candles</ul>
+                <ul>Candle Holders & Accessories</ul>
+            </p>
+            <br>
+            <h4>FEATURED</h4>
+            <p>
+                <ul>The White Barn Shop</ul>
+               
+            </p>
+            
+            
+        </div>
+        <div id="mainProducts">
+            <div id="slider">
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw31541337/cndl_visual-filter-3w_junsas_vn.jpg?yocs=o_s_">
+                    <h4>3-Wick Candles</h3>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw7cae1379/images/cndl_visual-filter-sw_junsas_vn.jpg?yocs=o_s_">
+                    <h4>Single Wick Candles</h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw07e424ca/images/cndl_visual-filter-holder_junsas_vn.jpg?yocs=o_s_">
+                    <h4>Candle Holders & Accessories</h4>
+                </div>
+                <div>
+                    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-bbw-storefront-catalog-en/default/dw31541337/cndl_visual-filter-3w_junsas_vn.jpg?yocs=o_s_">
+                    <h4>The White Barn Shop </h3>
+                </div>
+                
+                
+            </div>
+            <h2>&nbsp;&nbsp;&nbsp;All Body Care</h1>
+            <p class="dash"></p>
+            <div id="filterSort">
+                <div id="filter">
+                    <h3>Filter By:</h3>
+                    <div id="select">
+                        <select id="type">
+                            <option value="">PRODUCT TYPE</option>
+                            <option value="3-Wick Candle">3-Wick Candle</option>
+                            <option value="Single Wick Candle">Single Wick Candle</option>
+                            
+                        </select>
+                    </div id="select">
+                    <div>
+                        <select id="name">
+                            <option value="">FRAGRANCE NAME</option>
+                            <option value="Leaves">Leaves</option>
+                            <option value="Sugared Pecan Pie">Sugared Pecan Pie</option>
+                            <option value="Fall in Bloom">Fall in Bloom</option>
+                            <option value="Coffee & Whiskey">Coffee & Whiskey</option>
+                            <option value="Spiced Apple Toddy">Spiced Apple Toddy</option>
+                           
+                        </select>
+                    </div>
+                    <div id="select">
+                        <select id="type">
+                            <option value="">FRAGRANCE CATEGORY</option>
+                            <option value="">Citrus</option>
+                            <option value="">Floral</option>
+                            <option value="">Fresh</option>
+                            <option value="">Fruity</option>
+                            <option value="">Sweet</option>
+                            <option value="">Woodsy</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <select id="sort">
+                        <option value="">SORT BY</option>
+                       
+                        <option value="Price Low to High" >Price Low to High</option>
+                        <option value="Price High to Low" >Price High to Low</option>
+                       
+                    </select>
+                </div>
+            </div>
+            <h4 style="margin-left:20px;color:blue;display:flex;align-items: center;margin-bottom: -2px;">SHOP YOUR STORE:&nbsp; <a href="" style="color:black;"><h5>Set Store</h5></a></h4>
+            <div id="basic"></div>
+            <p style="margin-top:200px;margin-left:20px;"class="dash"></p>
+            <p style="margin-left:40px;font-size:30px;font-family:sans-serif;color:rgb(92, 91, 91)">About Candles from Bath & Body Works</p>
+            <p class="p">True story: Bath & Body Works candles turn your house into a home. All it takes is the perfect fragrance (or two) (or five!) and you’re instantly in a scented wonderland.</p>
+            <p class="p">And we call them the World’s Best 3-Wick Candles for a reason: these soy-based goodies last for up to 45 hours, giving you room-filling fragrance from top to bottom. Plus, with over 50 scents to choose from, our candles are the perfect way to add that extra touch of magic when you’re hosting guests. That feeling when someone says “OMG, it smells so good in here”? It’s our fave compliment.</p>
+            <p class="p">Have a small room that needs some fragrance goodness…or want to give a totally new scent a try? That’s where our single wick candles come in. Perfect for the bathroom, kitchen or anywhere else that needs a boost, these scented candles fill up the room with major fragrance…even though they come in a smaller package.</p>
+            <p class="p">We’re also super into aromatherapy candles for a little end-of-the-day relaxation. Grab your favorite scent – or choose one based on your mood – and prepare to feel amazing.</p>
+            <p style="margin-bottom: 50px;"class="p">Pro tip: candles also make incredible gifts, so stock up on a few of your loves to keep in your gift closet. You never know when those occasions might pop up. Bonus points if you pick out a candle holder or accessory to throw in the package (or just for yourself).</p>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<script src="./candles.js"></script>
