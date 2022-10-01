@@ -168,7 +168,7 @@ body {
 {
     width: 100%;
     margin-top: 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .midSec_Div
 {
@@ -204,7 +204,7 @@ body {
 }
 #gift_container
 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 90%;
     margin: auto;
     align-items: center;
@@ -231,7 +231,7 @@ body {
 }
 #more_good
 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -270,7 +270,7 @@ body {
 
 #last_slider
 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     margin: auto;
 }
@@ -280,6 +280,8 @@ body {
     text-align: center;
     margin: auto;
     justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
 }
 #social>span
 {
@@ -293,9 +295,16 @@ body {
 .lastSec
 {
     text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
 }
 .lastSec>h2
 {
     font-weight: 300;
-    font-size: 30px;
+    font-size: 29px;
+}
+.lastSec>p
+{
+    color:grey;
 }
