@@ -1,3 +1,10 @@
+
+ import { nav } from './components/nav.js' 
+
+ const nav_div=document.getElementById('navbar') 
+
+ nav_div.innerHTML=nav() 
+
 const items=[
     {
         images:"https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6d5a51f8/crop/026491606_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",

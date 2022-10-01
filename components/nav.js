@@ -26,7 +26,7 @@
         <i class="fa-solid fa-user"></i>
          <div id="user-show">
             <ul>
-              <li><a href="">Signin or signup</a></li>
+              <li><a href="signup.html">Signin or signup</a></li>
               <li><a href="">Order tracking</a></li>
               <li><a href="">My Auto Refresh</a></li>
               <li><a href="">My Love-It List</a></li>
