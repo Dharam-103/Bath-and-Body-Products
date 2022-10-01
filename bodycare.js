@@ -161,7 +161,7 @@ const inp=document.getElementById('type')
         const new_data= items.filter(function(el){
 
             
-        return el.sidetitles==selected
+        return el.sidetitles==selected;
 
         })
 
@@ -185,7 +185,7 @@ const pro=document.getElementById("name")
    const new_data= items.filter(function(el){
 
         
-        return el.titles==selected
+        return el.titles==selected;
 
     })
     console.log(new_data)
