@@ -26,7 +26,7 @@
         <i class="fa-solid fa-user"></i>
          <div id="user-show">
             <ul>
-              <li><a href="signup.html">Signin or signup</a></li>
+              <li><a href="/unwidely-sponge-3549/signup.html">Signin or signup</a></li>
               <li><a href="">Order tracking</a></li>
               <li><a href="">My Auto Refresh</a></li>
               <li><a href="">My Love-It List</a></li>
@@ -40,9 +40,9 @@
 <!-- navbar all page heading -->
 <div id="page-heading">
     <ul>
-     <li><a href="topoffer.html">TOP OFFERS</a></li>
+     <li><a href="/unwidely-sponge-3549/topoffer.html">TOP OFFERS</a></li>
      <li id="item-2"> 
-        <a href="bodycare.html">BODY CARE</a>
+        <a href="/unwidely-sponge-3549/bodycare.html">BODY CARE</a>
         <div id="dropdown">
            <ul>
               <li ><a href="">NEW & NOW</a></li>
@@ -54,7 +54,7 @@
         </div>
      </li>
      <li id="item-3"> 
-        <a href="candles.html">CANDLES</a> 
+        <a href="/unwidely-sponge-3549/candles.html">CANDLES</a> 
         <div id="candles">
            <ul>
               <li ><a href="">ALL CANDLES</a></li>
@@ -89,7 +89,7 @@
      
      </li>
      <li id="item-6">
-        <a href="men.html">MEN'S SHOP</a>
+        <a href="/unwidely-sponge-3549/men.html">MEN'S SHOP</a>
         <div id="men-shop">
            <ul>
               <li ><a href="">MEN'S SHOP</a></li>
