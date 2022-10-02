@@ -14,6 +14,15 @@ show.addEventListener('mouseover',function(){
     showborder()
 })
 
+show.addEventListener('click',function(){
+    homePage()
+})
+
+function homePage(){
+    window.location.href="index.html"
+}
+
+
 function showborder(){
 
     show.classList.add('appear')
