@@ -33,7 +33,7 @@ footer_div.innerHTML=footer()
          if(arrsignin[i].emails==obj.email && arrsignin[i].password==obj.password){
              flag=true;
              alert("Login Successfull")
-             window.location.href="./Home Page/index/index.html"
+             window.location.href="./index.html"
             //  break;
              
             }
