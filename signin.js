@@ -34,7 +34,7 @@ footer_div.innerHTML=footer()
              flag=true;
              alert("Login Successfull")
              window.location.href="./index.html"
-            //  break;
+             break;
              
             }
          
