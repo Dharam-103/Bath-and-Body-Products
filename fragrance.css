@@ -1,7 +1,6 @@
 #basic{
     display: grid;
     grid-template-columns: repeat(4,22%);
-   grid-template-rows: auto;
     gap: 3%;
     margin-top: 5%;
 }
@@ -48,3 +47,4 @@ text-align: center;
     border: 0px;
     height: 30px;
     border-radius: 3px;
+}   

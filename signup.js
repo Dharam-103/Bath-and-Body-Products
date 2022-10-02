@@ -1,3 +1,19 @@
+import { nav } from './components/nav.js' 
+
+const nav_div=document.getElementById('navbar') 
+
+nav_div.innerHTML=nav() 
+
+
+import {footer} from "./components/footer.js"
+
+const footer_div=document.getElementById('add-footer');
+
+footer_div.innerHTML=footer()
+
+
+
+
 let form = document.querySelector("form")
 
 let arrsignup = JSON.parse(localStorage.getItem("arraysignup")) || []

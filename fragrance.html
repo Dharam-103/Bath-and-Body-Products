@@ -8,29 +8,19 @@
     <link rel="stylesheet" href="fragrance.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <script src="https://kit.fontawesome.com/cfdd832042.js" crossorigin="anonymous"></script>
     <style>
         body{
             font-family: sans-serif;
         }
         #sidebar{
-            width:14%;
-          /*  border:0px solid blue;*/
-            padding:5px;
+            text-align:center ;
             margin-top: 3%;
         }
-        p{
-            font-size: 12px;
-            font-family: sans-serif;
-            
+        #sidebar p ul{
+            margin-top: 20px;
         }
-        ul{
-            margin-left:-38px;
-            color :gray;
-            font-size: 14px;
-        }
-        h4{
-            font-size: 14px;
-        }
+      
         #bodycare{
             display:flex;
             gap:20px;
@@ -38,7 +28,7 @@
         #mainProducts{
           /*  border:1px solid gray;*/
             width:83%;
-            height:2000px;
+            height:1750px;
         }
         #slider{
             border:0px solid black;
@@ -49,10 +39,8 @@
             gap:20px;
         }
         #slider {
-            
-            overflow: auto;
+             overflow: auto;
             white-space: nowrap;
-            /*padding:10px;*/
         }
 
         #slider>div{
@@ -124,8 +112,17 @@
             
         }
        
-
-
+      #starting{
+        margin-top: 20px;
+        padding-left: 30px;
+       
+      }
+      #starting p{
+        font-size: 17px;
+      }
+     #store{
+        margin-top: 20px;
+     }
 
         
     </style>
@@ -133,7 +130,9 @@
 <body>
 
     <div id="navbar"></div>
-    <p><a href="">HOME</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="">Home Fragrance</a></p>
+    <div id="starting">
+        <p><a href="">Home</a> / Home Fragrance</p>
+    </div>
     <div id="bodycare">
         <div id="sidebar">
             <h4>TOP OFFERS</h4>
@@ -254,20 +253,23 @@
                 <div>
                     <select id="sort">
                         <option value="">SORT BY</option>
-                        
                         <option value="Price Low to High" >Price Low to High</option>
                         <option value="Price High to Low" >Price High to Low</option>
                         
                     </select>
                 </div>
             </div>
-            <h4 style="margin-left:20px;color:blue;display:flex;align-items: center;margin-bottom: -2px;">SHOP YOUR STORE:&nbsp; <a href="" style="color:black;"><h5>Set Store</h5></a></h4>
-            <div id="basic" ></div>
+            <div id="store">
+                <span>SHOP YOUR STORE:<a href="">Set Store</a></span>
+            </div>
             
+            <div id="basic" ></div>
+           
         </div>
+       
     </div>
     
-    <div id="add-footer"></div>
+    <div id="add-footer"></div> 
     
 
 </body>

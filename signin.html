@@ -4,6 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <script src="https://kit.fontawesome.com/cfdd832042.js" crossorigin="anonymous"></script>
+
     <style>
         #img-head{
             margin-top: 30px;     
@@ -150,6 +154,8 @@
     </style>
 </head>
 <body>
+
+    <div id="navbar"></div>
     <div id="img-head">
         <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw67bc4699/images/banners/sign-in_d.png?yocs=s_" alt="">
     </div>
@@ -190,40 +196,11 @@
         <p>QUESTIONS?</p>
         <p>We’re here for you! Call us at 1-800-756-5005.</p>
     </div>
+
+    <div id="add-footer"></div>
     
 </body>
 </html>
-<script>
-    let form = document.querySelector("form")
+<script type="module" src="navbar.js"></script>
+<script type="module" src="signin.js"></script>
 
-let arrsignin = JSON.parse(localStorage.getItem("arraysignup"))||[]
-
-form.addEventListener("submit", function(event){
-    event.preventDefault()
-
-    if(arrsignin==0){
-        alert("No User Found Till Now")
-        return
-    }
-    let obj={
-        email:form.email.value,
-        password:form.passw.value,      
-    }
-   
-    let flag=false
-
-for(let i=0; i<arrsignin.length; i++ ){
-        if(arrsignin[i].emails==obj.email && arrsignin[i].password==obj.password){
-            flag=true;
-            alert("Login Successfull")
-            window.location.href="homepage.html"
-            break;
-            
-           }
-        
-        }
-    if(flag==false){
-        alert("Wrong Username Or Password")
-    }
-})
-</script>

@@ -40,9 +40,9 @@
 <!-- navbar all page heading -->
 <div id="page-heading">
     <ul>
-     <li><a href="">TOP OFFERS</a></li>
+     <li><a href="topoffer.html">TOP OFFERS</a></li>
      <li id="item-2"> 
-        <a href="">BODY CARE</a>
+        <a href="bodycare.html">BODY CARE</a>
         <div id="dropdown">
            <ul>
               <li ><a href="">NEW & NOW</a></li>
@@ -54,7 +54,7 @@
         </div>
      </li>
      <li id="item-3"> 
-        <a href="">CANDLES</a> 
+        <a href="candles.html">CANDLES</a> 
         <div id="candles">
            <ul>
               <li ><a href="">ALL CANDLES</a></li>
@@ -89,7 +89,7 @@
      
      </li>
      <li id="item-6">
-        <a href="">MEN'S SHOP</a>
+        <a href="men.html">MEN'S SHOP</a>
         <div id="men-shop">
            <ul>
               <li ><a href="">MEN'S SHOP</a></li>

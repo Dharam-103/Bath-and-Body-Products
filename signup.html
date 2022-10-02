@@ -4,6 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <script src="https://kit.fontawesome.com/cfdd832042.js" crossorigin="anonymous"></script>
+
     <style>
         #logo{
             width:60%;
@@ -27,8 +31,10 @@
            /* border: 2px solid red; */
            margin: auto;
            width: 23%;
+           margin-top: 40px;
         }
         #form>p{
+            margin-bottom: 10px;
             font-size: 15px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
@@ -48,6 +54,7 @@
         background-color: black;
         color: white;
         cursor: pointer;
+        margin-top: 20px;
        }
        #sub:hover{
         background-color: gray;
@@ -58,20 +65,18 @@
         margin-top: 0px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
        }
-       #line2{
-        border: .5px solid black;
-        margin-top: 80px;
-       }
+       
 
         
     </style>
 </head>
 <body>
+    <div id="navbar"></div>
     <div>
         <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw6f07f823/images/banners/create-account_d.png?yocs=s_" id="logo">
     </div>
     <p id="create">Create an Account</p>
-    <div id="line"></div>
+   <div id="line"></div>
     <div id="up-form">
         <form id="form">
             <p>First Name</p>
@@ -96,9 +101,12 @@
         <p>Questions?</p>
         <p>We Are Here for you! Call us at 1-800-756-5005</p>
     </div>
-    <div id="line2"></div>
+    <!-- <div id="line2"></div> -->
+    <div id="add-footer"></div>
    
 </body>
 </html>
 
-<script src="signup.js"></script>
+
+<script type="module" src="signup.js"></script>
+<script type="module" src="navbar.js"></script>
